@@ -1,0 +1,108 @@
+/sw/bioinfo/quast/5.0.2/snowy/bin/quast.py /home/cool6280/project_genome_analysis/Genome_analysis/analyses/01_canu/my_DNA_assembly.contigs.fasta -R /home/cool6280/project_genome_analysis/raw_data/reference/OBMB01.fasta -o /home/cool6280/project_genome_analysis/Genome_analysis/analyses/03_quast
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-3.10.0-1160.88.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core (linux_64)
+  Python version: 3.7.2
+  CPUs number: 16
+
+Started: 2023-04-13 21:26:26
+
+Logging to /home/cool6280/project_genome_analysis/Genome_analysis/analyses/03_quast/quast.log
+NOTICE: Maximum number of threads is set to 4 (use --threads option to set it manually)
+
+CWD: /domus/h1/cool6280/project_genome_analysis/Genome_analysis/analyses/03_quast
+Main parameters: 
+  MODE: default, threads: 4, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /home/cool6280/project_genome_analysis/raw_data/reference/OBMB01.fasta ==> OBMB01
+
+Contigs:
+  Pre-processing...
+  /home/cool6280/project_genome_analysis/Genome_analysis/analyses/01_canu/my_DNA_assembly.contigs.fasta ==> my_DNA_assembly.contigs
+
+2023-04-13 21:26:31
+Running Basic statistics processor...
+  Reference genome:
+    OBMB01.fasta, length = 2610531, num fragments = 2, GC % = 54.14
+  Contig files: 
+    my_DNA_assembly.contigs
+  Calculating N50 and L50...
+    my_DNA_assembly.contigs, N50 = 2562084, L50 = 1, Total length = 2603955, GC % = 54.13, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/cool6280/project_genome_analysis/Genome_analysis/analyses/03_quast/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /home/cool6280/project_genome_analysis/Genome_analysis/analyses/03_quast/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/cool6280/project_genome_analysis/Genome_analysis/analyses/03_quast/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/cool6280/project_genome_analysis/Genome_analysis/analyses/03_quast/basic_stats/GC_content_plot.pdf
+  Drawing my_DNA_assembly.contigs GC content plot...
+    saved to /home/cool6280/project_genome_analysis/Genome_analysis/analyses/03_quast/basic_stats/my_DNA_assembly.contigs_GC_content_plot.pdf
+Done.
+
+2023-04-13 21:26:33
+Running Contig analyzer...
+  my_DNA_assembly.contigs
+  Logging to files /home/cool6280/project_genome_analysis/Genome_analysis/analyses/03_quast/contigs_reports/contigs_report_my_DNA_assembly-contigs.stdout and contigs_report_my_DNA_assembly-contigs.stderr...
+  Aligning contigs to the reference
+  Analysis is finished.
+  Creating total report...
+    saved to /home/cool6280/project_genome_analysis/Genome_analysis/analyses/03_quast/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /home/cool6280/project_genome_analysis/Genome_analysis/analyses/03_quast/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /home/cool6280/project_genome_analysis/Genome_analysis/analyses/03_quast/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /home/cool6280/project_genome_analysis/Genome_analysis/analyses/03_quast/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /home/cool6280/project_genome_analysis/Genome_analysis/analyses/03_quast/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2023-04-13 21:26:35
+Running NA-NGA calculation...
+  my_DNA_assembly.contigs, Largest alignment = 1566931, NA50 = 1566931, NGA50 = 1566931, LA50 = 1, LGA50 = 1
+  Drawing cumulative plot...
+    saved to /home/cool6280/project_genome_analysis/Genome_analysis/analyses/03_quast/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /home/cool6280/project_genome_analysis/Genome_analysis/analyses/03_quast/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /home/cool6280/project_genome_analysis/Genome_analysis/analyses/03_quast/aligned_stats/NGAx_plot.pdf
+Done.
+
+2023-04-13 21:26:36
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  my_DNA_assembly.contigs
+  Analysis is finished.
+  Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2023-04-13 21:26:38
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2023-04-13 21:26:40
+RESULTS:
+  Text versions of total report are saved to /home/cool6280/project_genome_analysis/Genome_analysis/analyses/03_quast/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/cool6280/project_genome_analysis/Genome_analysis/analyses/03_quast/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/cool6280/project_genome_analysis/Genome_analysis/analyses/03_quast/report.html
+  PDF version (tables and plots) is saved to /home/cool6280/project_genome_analysis/Genome_analysis/analyses/03_quast/report.pdf
+  Icarus (contig browser) is saved to /home/cool6280/project_genome_analysis/Genome_analysis/analyses/03_quast/icarus.html
+  Log is saved to /home/cool6280/project_genome_analysis/Genome_analysis/analyses/03_quast/quast.log
+
+Finished: 2023-04-13 21:26:40
+Elapsed time: 0:00:13.671189
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

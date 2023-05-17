@@ -1,0 +1,40 @@
+[E::idx_find_and_load] Could not retrieve index file for '/proj/genomeanalysis2023/nobackup/work/cool6280/bwa_output/ERR2036629_bwa_sorted.bam'
+Error processing GFF file (line 1 of file /home/cool6280/project_genome_analysis/Genome_analysis/analyses/RNA_analyses/05_HTSeq/Lepto_edi.gff):
+  invalid literal for int() with base 10: 'Prodigal:002006'
+  [Exception type: ValueError, raised in features.py:147]
+[E::idx_find_and_load] Could not retrieve index file for '/proj/genomeanalysis2023/nobackup/work/cool6280/bwa_output/ERR2036630_bwa_sorted.bam'
+Error processing GFF file (line 1 of file /home/cool6280/project_genome_analysis/Genome_analysis/analyses/RNA_analyses/05_HTSeq/Lepto_edi.gff):
+  invalid literal for int() with base 10: 'Prodigal:002006'
+  [Exception type: ValueError, raised in features.py:147]
+[E::idx_find_and_load] Could not retrieve index file for '/proj/genomeanalysis2023/nobackup/work/cool6280/bwa_output/ERR2036631_bwa_sorted.bam'
+Error processing GFF file (line 1 of file /home/cool6280/project_genome_analysis/Genome_analysis/analyses/RNA_analyses/05_HTSeq/Lepto_edi.gff):
+  invalid literal for int() with base 10: 'Prodigal:002006'
+  [Exception type: ValueError, raised in features.py:147]
+[E::idx_find_and_load] Could not retrieve index file for '/proj/genomeanalysis2023/nobackup/work/cool6280/bwa_output/ERR2036632_bwa_sorted.bam'
+Error processing GFF file (line 1 of file /home/cool6280/project_genome_analysis/Genome_analysis/analyses/RNA_analyses/05_HTSeq/Lepto_edi.gff):
+  invalid literal for int() with base 10: 'Prodigal:002006'
+  [Exception type: ValueError, raised in features.py:147]
+[E::idx_find_and_load] Could not retrieve index file for '/proj/genomeanalysis2023/nobackup/work/cool6280/bwa_output/ERR2036633_bwa_sorted.bam'
+Error processing GFF file (line 1 of file /home/cool6280/project_genome_analysis/Genome_analysis/analyses/RNA_analyses/05_HTSeq/Lepto_edi.gff):
+  invalid literal for int() with base 10: 'Prodigal:002006'
+  [Exception type: ValueError, raised in features.py:147]
+[E::idx_find_and_load] Could not retrieve index file for '/proj/genomeanalysis2023/nobackup/work/cool6280/bwa_output/ERR2117288_bwa_sorted.bam'
+Error processing GFF file (line 1 of file /home/cool6280/project_genome_analysis/Genome_analysis/analyses/RNA_analyses/05_HTSeq/Lepto_edi.gff):
+  invalid literal for int() with base 10: 'Prodigal:002006'
+  [Exception type: ValueError, raised in features.py:147]
+[E::idx_find_and_load] Could not retrieve index file for '/proj/genomeanalysis2023/nobackup/work/cool6280/bwa_output/ERR2117289_bwa_sorted.bam'
+Error processing GFF file (line 1 of file /home/cool6280/project_genome_analysis/Genome_analysis/analyses/RNA_analyses/05_HTSeq/Lepto_edi.gff):
+  invalid literal for int() with base 10: 'Prodigal:002006'
+  [Exception type: ValueError, raised in features.py:147]
+[E::idx_find_and_load] Could not retrieve index file for '/proj/genomeanalysis2023/nobackup/work/cool6280/bwa_output/ERR2117290_bwa_sorted.bam'
+Error processing GFF file (line 1 of file /home/cool6280/project_genome_analysis/Genome_analysis/analyses/RNA_analyses/05_HTSeq/Lepto_edi.gff):
+  invalid literal for int() with base 10: 'Prodigal:002006'
+  [Exception type: ValueError, raised in features.py:147]
+[E::idx_find_and_load] Could not retrieve index file for '/proj/genomeanalysis2023/nobackup/work/cool6280/bwa_output/ERR2117291_bwa_sorted.bam'
+Error processing GFF file (line 1 of file /home/cool6280/project_genome_analysis/Genome_analysis/analyses/RNA_analyses/05_HTSeq/Lepto_edi.gff):
+  invalid literal for int() with base 10: 'Prodigal:002006'
+  [Exception type: ValueError, raised in features.py:147]
+[E::idx_find_and_load] Could not retrieve index file for '/proj/genomeanalysis2023/nobackup/work/cool6280/bwa_output/ERR2117292_bwa_sorted.bam'
+Error processing GFF file (line 1 of file /home/cool6280/project_genome_analysis/Genome_analysis/analyses/RNA_analyses/05_HTSeq/Lepto_edi.gff):
+  invalid literal for int() with base 10: 'Prodigal:002006'
+  [Exception type: ValueError, raised in features.py:147]
